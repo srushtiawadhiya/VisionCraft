@@ -9,7 +9,7 @@ import imageRouter from './Route/ImageRoutes.js';
 const app = express();
 
 app.use(cors({
-    origin: 'https://vision-craft-yjlb.vercel.app',
+    origin: 'https://vision-craft-zb4b.vercel.app/',
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization', 'token']
 }));
